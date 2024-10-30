@@ -1,0 +1,17 @@
+{
+  "name": "blpaczka/blpaczka-woocommerce",
+  "description": "Tanie przesyłki prosto z Twojego sklepu BL Paczka",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BLPaczka\\BLPaczkaWoocommerce\\": "src/"
+    },
+    "config": {
+      "optimize-autoloader": true
+    }
+
+  }
+}
